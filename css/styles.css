@@ -1,15 +1,54 @@
-/* Set Your Own Margin & Padding */
-h2, h3, p {
-	margin: 1%, 1%, 1%, 1%;
+html{
+	background-image: url(../img/bg.png);
+	background-color: #333;
+	font-size: 16px;
+}
+h1{
+	color: #eee; text-shadow: #222 0.1em 0.1em 0.2em ;
+	font-family: 'Lato', sans-serif; font-weight:700;
+	transition: all 0.3s ease;
+	font-size: 3rem;
+}
+h2{
+	font-family: 'Lato', sans-serif; font-weight:400;
+	color: #D8D25D; text-shadow: black 0.1em 0.1em 0.2em;
+	margin-top: 1rem; 
+	margin-bottom: 1rem;
+	width: 100%
+	font-size: 2rem;
+}
+h3{
+	font-family: 'Lato', sans-serif; font-weight:400;
+	color: white;
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+	width: 100%
+	font-size: 1.5rem;
+}
+p{
+	margin: 1rem 1rem;
+	color: #eee;
+	font-family: 'Lato', sans-serif; font-weight: 300;
+	text-align: left; 
+}
+em{
+	padding-left: 25px;
+	color: white
+}
+a{
+	text-decoration: none;
+	color: #999;
+}
+a:hover{
+	color: #D8D25D;
+	transition: all 0.3s ease;
+}
+.center{
+	padding: .5rem;
 }
 .container{
 	max-width: 90%;
 }
-/* Layout for Style Tile*/
-section {
-	margin: 20px 0;
-}
-
 .color-1,
 .color-2,
 .color-3,
@@ -18,12 +57,28 @@ section {
 .pattern-3 {
 	border: 1px solid #000;
 	float: left;
-	margin: 0 10px;
+	margin: 10px 5px;
 	height: 50px;
-	width: 50px;
+	width: 25%;
 }
-
-
+.color-1{
+	background-color: #eee;
+}
+.color-2{
+	background-color: #D8D25D;
+}
+.color-3{
+	background-color: #999;
+}
+.pattern-1{
+	background-image: url(../img/grid-bg.png);
+}
+.pattern-2{
+	background-image: url(../img/grid-bg2.png);
+}
+.pattern-3{
+	background-image: url(../img/bg.png);
+}
 /* Show Grid */
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
